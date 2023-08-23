@@ -1,34 +1,18 @@
+html{
+    position: relative;
+}
 body{
+    
     padding: 0%;
     margin: 0 80px;
     background: #181719;
     color: #FFF;
     width: auto;
     box-sizing: border-box;
-    
+    display: flex;
+    flex-direction: column;
 }
-footer{
-    flex-shrink: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    padding: 20px;
-}
-footer div{
-    
-    color: #BDBDBD;
-    text-align: center;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-footer div a{
-    text-decoration: none; /* Remove underline */
-    color: inherit;
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -62,7 +46,47 @@ nav{
     font-weight: 700;
     line-height: normal;
 }
+nav img{
+    width: fit-content;
+    display: none;
+    flex-shrink: 0;
+}
+.toggle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0%;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    background-color: #7a6868;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.toggle img{
+    padding: 20px;
+    width: fit-content;
+    box-sizing: border-box;
+    align-self: flex-end;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%; /* Take full height of toggle container */
+    padding: 20px;
+}
+
+.menu .element{
+    padding: 40px;
+    text-align: center; /* Center the text */
+    width: 100%;
+}
 .container{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +119,9 @@ nav{
     line-height: normal;
 }
 .content button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-style: none;
     color: #FFF;
     background-color: #181719;
@@ -161,6 +188,7 @@ nav{
 }
 .cmntr{
     padding: 20px 0;
+    width: 70%;
     box-sizing: border-box;
     color: #FFF;
     font-family: Lora;
@@ -168,4 +196,72 @@ nav{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+footer{
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    padding: 20px;
+}
+footer div{
+    
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer div a{
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+}
+
+/* RESPONSIVE FOR MOBILE */
+
+@media (max-width: 768px) {
+    body{
+        margin: 0 20px;
+    }
+    nav{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .azrar{
+        display: none;
+    }
+    nav img{
+        display: block;
+    }
+    .container{
+        flex-direction: column;
+        padding: 40px 0;
+        box-sizing: border-box;
+    }
+    .content{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 60px;
+    }
+    .content p{
+        width: 80%;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-background{
+        padding-bottom: 100px;
+    }
+    .card{
+        width: 90%;
+        height: 40%;
+        top: 50%;
+        right: 20px;
+    }
+    footer{
+        width: 100%;
+    }
 }
