@@ -1,4 +1,171 @@
 body{
-    margin: 0%;
     padding: 0%;
+    margin: 0 80px;
+    background: #181719;
+    color: #FFF;
+    width: auto;
+    box-sizing: border-box;
+    
+}
+footer{
+    flex-shrink: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    padding: 20px;
+}
+footer div{
+    
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer div a{
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    box-sizing: border-box;
+
+}
+.logo{
+    border: 1px solid #FFF;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: Crimson Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.azrar{
+    display: flex;
+    gap: 40px;
+}
+.element{
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 45%;
+    padding-right: 120px;
+    box-sizing: border-box;
+}
+.content h1{
+    padding:5px 0 ;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.content p{
+    padding:5px 0 ;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content button{
+    border-style: none;
+    color: #FFF;
+    background-color: #181719;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.img-container{
+    width: 70%;
+    position: relative;
+    display: inline-block;
+}
+.img-background{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.card{
+    width: 60%;
+    position: absolute;
+    bottom: -20px; /* Adjust this value as needed */
+    right: 8%;
+    background-color: #181719;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+.card-user{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.card-user-info{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.card-user-info p {
+    margin: 0;
+    color: var(--gray-3, #828282);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card-user-info h3{
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card img{
+    border-radius: 50%;
+    width: 50px;
+}
+.cmntr{
+    padding: 20px 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Lora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
