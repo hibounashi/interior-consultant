@@ -44,6 +44,7 @@
 In this challenge, I learned about new things in CSS, such as how to use animations. Additionally, I began learning and applying JavaScript on my page. In the end, I hosted my demo using W3Schools as a static website.
 
 It took me some time to grasp new concepts in JavaScript, but it was definitely worth it in the end.
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
