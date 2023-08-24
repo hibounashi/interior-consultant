@@ -37,8 +37,8 @@
 ## Overview
 
 <p float="left">
-  <img src="result.png"/>
-  <img src="result_responsive.png" width="400px" /> 
+  <img src="result.png" width="400px"/>
+  <img src="result_responsive.png" width="400px"/> 
 </p>
 
 In this challenge, I learned about new things in CSS, such as how to use animations. Additionally, I began learning and applying JavaScript on my page. In the end, I hosted my demo using W3Schools as a static website.
