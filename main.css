@@ -20,12 +20,13 @@ nav{
     padding: 40px 0;
     box-sizing: border-box;
 
+
 }
 .logo{
     border: 1px solid #FFF;
     padding: 8px;
     box-sizing: border-box;
-    font-family: Crimson Pro;
+    font-family: Crimson Pro, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 200;
@@ -40,7 +41,7 @@ nav{
     padding: 0 20px;
     box-sizing: border-box;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -64,7 +65,9 @@ nav img{
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+
 }
+
 .toggle img{
     padding: 20px;
     width: fit-content;
@@ -78,12 +81,14 @@ nav img{
     flex-direction: column;
     height: 100%; /* Take full height of toggle container */
     padding: 20px;
+    
 }
 
 .menu .element{
     padding: 40px;
     text-align: center; /* Center the text */
     width: 100%;
+    
 }
 .container{
     position: relative;
@@ -102,7 +107,7 @@ nav img{
     padding:5px 0 ;
     box-sizing: border-box;
     color: #FFF;
-    font-family: Lora;
+    font-family: Lora, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -112,7 +117,7 @@ nav img{
     padding:5px 0 ;
     box-sizing: border-box;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -127,7 +132,7 @@ nav img{
     background-color: #181719;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -167,7 +172,7 @@ nav img{
 .card-user-info p {
     margin: 0;
     color: var(--gray-3, #828282);
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -176,7 +181,7 @@ nav img{
 .card-user-info h3{
     margin: 0;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -191,7 +196,7 @@ nav img{
     width: 70%;
     box-sizing: border-box;
     color: #FFF;
-    font-family: Lora;
+    font-family: Lora, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -235,6 +240,14 @@ footer div a{
     }
     nav img{
         display: block;
+    }
+    .toggle{
+        display: none;
+        transform: translateX(100%);
+    }
+    .toggle-active {
+        transform: translateX(0%);
+        display: flex;
     }
     .container{
         flex-direction: column;
